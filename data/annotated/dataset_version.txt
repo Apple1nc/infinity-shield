@@ -1,0 +1,11 @@
+# Dataset Version Log
+# Update this every time you export a new version from Roboflow
+
+Roboflow Project: foam_ball
+Classes: foam_ball (single class)
+
+| Version | Date | Images (raw) | Images (augmented) | Split       | Notes                        |
+|---------|------|--------------|--------------------|-------------|------------------------------|
+| v1      |      |              |                    | 80/10/10    | Initial annotation           |
+
+Export format: YOLOv8
