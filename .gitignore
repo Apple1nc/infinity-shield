@@ -1,0 +1,29 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (large files — store externally or use Git LFS)
+models/tensorrt/*.engine
+models/checkpoints/*.pt
+models/onnx/*.onnx
+
+# Data (large — back up to Google Drive, not Git)
+data/raw_video/
+data/frames/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
