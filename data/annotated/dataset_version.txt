@@ -7,5 +7,6 @@ Classes: plastic_ball (single class)
 | Version | Date | Images (raw) | Images (augmented) | Split       | Notes                        |
 |---------|------|--------------|--------------------|-------------|------------------------------|
 | v1      |08/05 |     434      |        1144        | 80/10/10    | Initial annotation           |
+| v2      |13/05 |     500      |        1300        | 80/10/10    | Negatives included           |
 
 Export format: YOLOv8
