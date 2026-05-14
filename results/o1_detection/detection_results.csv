@@ -1,0 +1,2 @@
+Model,mAP,Precision,Recall,Latency_mean_ms,Latency_p95_ms
+yolov8n_FP32,0.9086,0.943,0.8163,143.7,210.1
