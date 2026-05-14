@@ -1,8 +1,8 @@
 
-plastic-ball-detection - v1 2026-05-08 10:54am
+plastic-ball-detection - v2 2026-05-12 8:28am
 ==============================
 
-This dataset was exported via roboflow.com on May 8, 2026 at 10:55 AM GMT
+This dataset was exported via roboflow.com on May 12, 2026 at 8:34 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,7 +17,7 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 1144 images.
+The dataset includes 1300 images.
 Plastic-ball-detection are annotated in YOLOv8 format.
 
 The following pre-processing was applied to each image:
