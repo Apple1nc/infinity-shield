@@ -1,0 +1,9 @@
+{
+  "model": "MobileNet-SSD (ssdlite320_mobilenet_v3_large)",
+  "epochs": 50,
+  "device": "cpu",
+  "test_recall": 0.5,
+  "test_fp_rate": 0.2222,
+  "latency_mean_ms": 53.39,
+  "latency_p95_ms": 58.88
+}

@@ -16,6 +16,7 @@ build/
 models/tensorrt/*.engine
 models/checkpoints/*.pt
 models/onnx/*.onnx
+models/checkpoints/*.onnx
 
 # Data (large — back up to Google Drive, not Git)
 data/raw_video/
