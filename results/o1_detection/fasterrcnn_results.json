@@ -1,0 +1,9 @@
+{
+  "model": "Faster R-CNN (fasterrcnn_mobilenet_v3_large_fpn)",
+  "epochs": 50,
+  "device": "cpu",
+  "test_recall": 0.8571,
+  "test_fp_rate": 0.1,
+  "latency_mean_ms": 277.98,
+  "latency_p95_ms": 309.03
+}
