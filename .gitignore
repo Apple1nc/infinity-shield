@@ -22,9 +22,15 @@ models/checkpoints/*.onnx
 data/raw_video/
 data/frames/
 
+#Scripts
+data/annotated_visual/
+
 # VS Code
 .vscode/
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Ultralytics training/validation output (large; results.csv referenced separately)
+runs/detect/val*/
