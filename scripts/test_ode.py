@@ -2,7 +2,7 @@ import sys, os, json
 import numpy as np
 
 sys.path.append(os.path.join(os.path.dirname(__file__),'..','notebooks'))
-from ode_predictor import fit, integrate
+from ode_predictor import fit, fit_physics, integrate
 
 data_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'trajectories.json')
 
@@ -18,7 +18,7 @@ points_remaining = num_of_points - points_used
 
 fit_points = trajectory['noisy'][0:points_used]
 
-state = fit(fit_points, dt)
+state = fit_physics(fit_points, dt)
 future_points = integrate(state, points_remaining, dt)
 
 step_errors = []
