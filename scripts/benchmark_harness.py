@@ -56,7 +56,7 @@ for trajectory in data:
     ode_traj_errors.append(sum(step_errors_ode)/len(step_errors_ode))
 
 
-# summary across all trajectories
+# latency summary across all trajectories
 mean = sum(ekf_traj_errors)/len(ekf_traj_errors)
 mean_ode = sum(ode_traj_errors)/len(ode_traj_errors)
 std  = np.std(ekf_traj_errors)
